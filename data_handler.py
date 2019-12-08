@@ -8,3 +8,6 @@ STATUSES = ['planning', 'todo', 'in progress', 'review', 'done']
 
 def get_all_user_story():
     return []
+
+def return_table_headers():
+    return DATA_HEADER

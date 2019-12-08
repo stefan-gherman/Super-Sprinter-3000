@@ -1,1 +1,28 @@
-...
+<!doctype HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="static/pagestyle.css">
+    <title>Welcome | Super Sprinter 3000</title>
+</head>
+<body>
+<h1>
+    Super Sprinter 3000
+</h1>
+<p>
+    Add new User Stories
+</p>
+<table>
+<thead>
+<tr>
+    {% for elem in user_stories %}
+        <th>
+            {{elem}}
+        </th>
+    {% endfor %}
+</tr>
+</thead>
+</table>
+</body>
+</html>
