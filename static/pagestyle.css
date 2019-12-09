@@ -20,3 +20,13 @@ td {
     font-size: 15px;
     padding: 10px;
 }
+
+.labels {
+    font-size: 15px;
+    font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+textarea {
+    resize: none;
+}
